@@ -5,7 +5,7 @@ from django.http import HttpResponse
 
 # Create your views here.
 def home(request):
-    return render(request,'project.html',{'name':'UDAY'})
+    return render(request,'home.html',{'name':'UDAY'})
 
 def add(request):
     val1=int(request.POST['num1'])
